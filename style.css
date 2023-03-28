@@ -191,6 +191,11 @@ img {
 .btn:hover::after {
   animation: spin 1s linear infinite;
 }
+.btn:hover{
+  background-color: rgb(255, 174, 0);
+  color: var(--black-90);
+}
+
 @keyframes spin {
   0% {
     transform: rotate(0);
